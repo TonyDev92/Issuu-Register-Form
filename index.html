@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Issuu Loggin</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<header>
+    <div class="topbar">
+        <img class="topbar__logo" src="assets/1200px-Issuu_logo.svg.png" alt="issuulogo">
+    </div>
+    <div class="topbar__b">
+        <p>
+            Already a user?
+        </p>
+        <a id="sg"href="">Sign in</a>
+    </div>
+</header>
+
+<body>
+    <main>
+        <div class="formulario">
+            <form action="index.html" method="get" class="content">
+                <fieldset class="field">
+                    <legend class="tittle"><strong>Create an Issuu Account.</strong></legend>
+                    <div class="button">
+                        <button class="button__sing" name="Email" type="submit"><img class="logo__google"src="./assets/logoGoogle.png">Sing in with Google</button>
+                        <button class="button__sing__2"type="submit"><img class="logo__facebook"src="./assets/facebook-logo-f-sqaure1.png">Continue with Facebook</button>
+                    </div>
+                    <p class="with">or with email</p>
+                    <label id="lab"for="Email">Email</label>
+                    <input class="inp"type="text" name="Email" placeholder="e.g.john.doe@email.com">
+                    <label id="lab"for="Pass" required>Password</label>
+                    <input class="inp"type="password" id="Pass" name="passw">
+                    <div class="check">
+                    <input name="terms" type="checkbox" value="acept" required/><p id="acept">I accept the <a id="link" type="" href="">Terms o service</a> and the <a id="link"href="">Professional
+                        Terms
+                        of Service.</a></p>
+                    </div>
+                    <button id="create"type="submit">CREATE ACCOUNT</button>
+                </fieldset>
+            </form>
+        </div>
+        <footer>
+            <div class="inc">
+                <p>Issuu.Inc</p>
+            </div>
+            <div class="privacy">
+                <p><a id="fl" href="">Terms</a></p>
+                <p><a id="fl" href="">Privacy</a></p>
+                <p><a id="fl" href="">DMCA</a></p>
+            </div>
+        </footer>
+    </main>
+</body>
+
+</html>
